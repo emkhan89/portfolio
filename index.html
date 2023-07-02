@@ -7,16 +7,34 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lernantino // Web Developer</title>
   <!-- <link rel="stylesheet" href="./assets/css/style.css" />  INCORRECT RELATIVE FILE PATH--> 
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
+  <section class="header">
     <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
+      <nav>
+        <ul>
+          <li>
+              <a href="#"><b>About Me</b></a>
+          </li>
+          
+          <li>
+            <a href="#"><b>Work</b></a>
+          </li>
+          
+          <li>
+            <a href="#"><b>Contact Me</b></a>
+          </li>
+          
+          <li>
+            <a href="#"><b>Resume</b></a>
+          </li>
+          
+        </ul>
+      </nav>
+  </section>    
 
   <!-- hero banner -->
   <section class="hero-banner">
@@ -27,20 +45,43 @@
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <!-- "page-section" id="about"> -->
+    <section class="about">      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa impedit facere explicabo deleniti labore in numquam illo dignissimos nulla commodi dicta sapiente eveniet sed ipsa veritatis, magnam aut exercitationem? Earum eaque ullam iusto ad quae nemo maxime impedit doloribus. Molestias cumque incidunt eius unde deleniti consequuntur quam, fugiat, aut, debitis delectus sit ducimus. Sint ipsum saepe ducimus deleniti amet quam illum incidunt numquam deserunt, eveniet aliquam eligendi vero ut quibusdam repellendus est placeat recusandae! Quis deleniti, asperiores deserunt consectetur ab cum quidem ex similique placeat eum, pariatur molestias alias assumenda quod accusamus odio sunt praesentium magni ad harum itaque!
+      </p>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+    <!-- portfolio container. WHY have class and id?-->
+    <!-- <section class="page-section" id="work"> -->
+    <section class="work"> 
+      <div class="nest">
+          <div class="nest-1"></div>
+          <div class="nest-2"></div>
+          <div class="nest-3"></div>
+          <div class="nest-4"></div>
+          <div class="nest-5"></div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <section class="page-section" id="contact">
       <h2>Contact Me</h2>
     </section>
   </main>
+
+  <aside>
+    <section class="aside-about">
+      <h2>About Me</h2>
+    </section>
+
+    <section class="aside-work">
+      <h2>Work</h2>
+    </section>
+
+    <section class="aside-contact">
+      <h2>Contact Me</h2>
+    </section>
+  </aside>
+  
 </body>
 
 </html>
