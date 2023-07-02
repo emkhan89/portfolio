@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#about {
+  flex-grow: 1;
+}
+
+#work {
+    flex-grow:;
+}
+
+#contact {
+
+}
+/* 
+.page-section {
+  display: flex;
+  flex-direction: column;
+  height: 500px ;
+  border: 2px solid black;
+  font-size: 30px;
+} */
+
+h1,
+h2 {
+  border: 2px solid red;
+}
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
