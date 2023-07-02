@@ -56,3 +56,89 @@ body {
   line-height: 1.5;
 }
 
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  float: right;
+  
+  /* border: 2px solid red; */
+}
+
+.page-wrapper .about{
+  height: 200px;
+}
+
+
+.nest-1 {
+  display: flex;
+  background-image: url(/assets/images/02-portfolio-4.jpg);
+  height: 600pxgit;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.nest-2 {
+  display: flex;
+  background-image: url(/assets/images/02-portfolio-1.jpg);
+  height: 200px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-bottom: 20px;
+  padding: 50px;
+  
+}
+
+ .nest-3 {
+  display: flex;
+  background-image: url(/assets/images/02-portfolio-2.jpg);
+  height: 200px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.nest-4 {
+  display: flex;
+  background-image: url(/assets/images/02-portfolio-1.jpg);
+  height: 200px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  
+}
+
+.nest-5 {
+  display: flex;
+  background-image: url(/assets/images/02-run-buddy.jpg);
+  height: 200px;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+}
+p {
+  margin: 15px;
+}
+
+.nest-1, .nest-2, .nest-3, .nest-4, .nest-5 {
+    border: 2px solid red;
+}
+
+
+aside {
+  float: left;
+  height: 100%;
+}
+
+.aside-about {
+  height: 200px;
+  font-size: 40px;
+  border-right: #469b4a 10px;
+}
