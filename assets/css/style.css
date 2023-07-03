@@ -73,7 +73,7 @@ body {
 .nest-1 {
   display: flex;
   background-image: url(/assets/images/02-portfolio-4.jpg);
-  height: 600pxgit;
+  height: 600px;
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
@@ -106,7 +106,7 @@ body {
 
 .nest-4 {
   display: flex;
-  background-image: url(/assets/images/02-portfolio-1.jpg);
+  background-image: url(/assets/images/puzzle.jpg);
   height: 200px;
   width: 50%;
   background-size: cover;
@@ -128,17 +128,44 @@ p {
 }
 
 .nest-1, .nest-2, .nest-3, .nest-4, .nest-5 {
-    border: 2px solid red;
+    border: 2px solid #469b4a;
 }
+
 
 
 aside {
   float: left;
   height: 100%;
+
+  /* width: 20%;
+  margin-left: 20px;
+  padding: 20px;
+  clear: both;
+  width: 20%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd; */
 }
 
-.aside-about {
-  height: 200px;
-  font-size: 40px;
-  border-right: #469b4a 10px;
+.aside-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+}
+
+
+/* below one works but why doesnt my one inside of a h3?
+.footer ul li {
+  display: inline-block;
+} */
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer a {
+  border-bottom: 5px solid red;
+  text-decoration: none;
 }
