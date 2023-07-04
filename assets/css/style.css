@@ -195,13 +195,13 @@ p {
   display: inline-block;
 } */
 
-.footer {
+#contact {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.footer a {
+#contact a {
   border-bottom: 3px solid #469b4a;
   text-decoration: none;
 }
